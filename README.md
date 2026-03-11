@@ -64,15 +64,15 @@ Latitude and longitude were also clustered using KMeans to identify spatial pric
 
 ## Room Type Distribution
 
-![Modelo](images/preco_real_vs_previsto.png)
+![Tipos de Imoveis](images/tipos_imoveis.png)
 
 ## Price Distribution
 
-INSERT GRAPH: price_distribution.png
+![Distribuição de preços](images/distribuicao_precos.png)
 
 ## Geographic Price Map
 
-INSERT GRAPH: map_price_distribution.png
+![Distribuição geografica](images/mapa_calor.png)
 
 ---
 
@@ -103,7 +103,7 @@ RMSE: ~448 BRL
 
 ## Real vs Predicted
 
-INSERT GRAPH: real_vs_predicted.png
+![Modelo](images/preco_real_vs_previsto.png)
 
 ---
 
@@ -117,7 +117,7 @@ Key features influencing predictions include:
 - bedrooms
 - location_cluster
 
-INSERT GRAPH: feature_importance.png
+![Importância](images/variaveis_importantes.png)
 
 ---
 
