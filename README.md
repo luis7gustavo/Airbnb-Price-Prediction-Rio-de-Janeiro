@@ -64,7 +64,7 @@ Latitude and longitude were also clustered using KMeans to identify spatial pric
 
 ## Room Type Distribution
 
-INSERT GRAPH: room_type_distribution.png
+![Modelo](images/preco_real_vs_previsto.png)
 
 ## Price Distribution
 
