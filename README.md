@@ -95,32 +95,68 @@ Chosen due to strong performance on tabular data and ability to capture nonlinea
 
 ---
 
-# 📈 Model Performance
+## 🤖 Machine Learning Model
 
-MAE: 341.69 BRL
+To improve prediction accuracy, two separate models were trained based on property type:
 
-RMSE: ~448 BRL
+1️⃣ Entire Home / Apartment  
+2️⃣ Private Room
 
-## Real vs Predicted
-
-![Modelo](images/preco_real_vs_previsto.png)
+This separation allows the model to learn different pricing dynamics for each type of property.
 
 ---
 
-# 🔍 Feature Importance
+# 🏠 Model 1 — Entire Home / Apartment
 
-Key features influencing predictions include:
+### 📈 Model Performance
 
-- distance_to_beach
-- latitude
+MAE: **341.69 BRL**
+
+RMSE: **448.02 BRL**
+
+### Real vs Predicted Prices
+
+![Modelo Casa/Apartamento](images/preco_real_vs_previsto_CsAptInt.png)
+
+### 🔍 Feature Importance
+
+Key features influencing predictions:
+
 - bathrooms
+- distance_to_beach
 - bedrooms
+- latitude
 - location_cluster
 
-![Importância](images/variaveis_importantes.png)
+![Importância das variáveis](images/variavel_mais_importante_ApCs_int.png)
 
 ---
 
+# 🛏 Model 2 — Private Room
+
+### 📈 Model Performance
+
+MAE: **337.22 BRL**
+
+RMSE: **477.35 BRL**
+
+### Real vs Predicted Prices
+
+![Modelo Quarto Privado](images/preco_real_vs_previsto_QUARTO.png)
+
+### 🔍 Feature Importance
+
+Key features influencing predictions:
+
+- reviews_per_month
+- latitude
+- accommodates
+- distance_to_beach
+- location_cluster
+
+![Importância das variáveis](images/variavel_mais_importante_quarto_int.png)
+
+---
 # 🧪 Example Prediction
 
 Bedrooms: 2
