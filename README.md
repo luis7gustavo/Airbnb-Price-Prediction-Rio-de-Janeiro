@@ -116,7 +116,7 @@ RMSE: **448.02 BRL**
 
 ### Real vs Predicted Prices
 
-![Modelo Casa/Apartamento](preço_real_x_previsto_CsAptInt.png)
+![Modelo Casa/Apartamento](images/preço_real_x_previsto_CsAptInt.png)
 
 ### 🔍 Feature Importance
 
@@ -142,7 +142,7 @@ RMSE: **477.35 BRL**
 
 ### Real vs Predicted Prices
 
-![Modelo Quarto Privado](preço_real_x_previsto_QUARTO.png)
+![Modelo Quarto Privado](images/preço_real_x_previsto_QUARTO.png)
 
 ### 🔍 Feature Importance
 
